@@ -1,0 +1,22 @@
+// src/components/example-4-styled-components/Button.jsx
+import React from 'react';
+import styled from 'styled-components';
+
+const StyledButton = styled.button`
+  background-color: blue;
+  border-radius: 8px;
+  color: ;
+  padding: 15px 50px;
+  font-size: 24pt;
+  width: 300px;
+`;
+
+const Button = ({ buttonText }) => {
+  return (
+    <>
+      <StyledButton>{buttonText}</StyledButton>
+    </>
+  );
+};
+
+export default Button;
